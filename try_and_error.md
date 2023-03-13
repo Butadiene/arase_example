@@ -77,8 +77,10 @@ tplot( [ 'erg_mgf_l2_mag_8sec_sm' ] )
 にする。
 
 ## tplot
-オブジェクト。
+オブジェクト。pytplot.tplot
+
 こいつが観測機器の関数で実行されたtplot関係のデータを「全て」持ってる。
+
 機器の関数を実行すると、tplotの中に格納される。
 ```
 pytplot.tplot_names()
@@ -115,4 +117,3 @@ pytplot.tplot_names()
 というのがそういう意味
 
 # Question 
-tplot関数が探してくるのはどこから？
